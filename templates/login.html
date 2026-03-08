@@ -1,0 +1,22 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="container"
+        <h2> User Login  </h2>
+        <form action="/authenticatelogIN" method="post">
+            <p> Please enter your user name : </p>
+            <input type="text" name="q">
+            <p> Please enter your password: </p>
+            <input type="text" name="p">
+            
+            <input type="submit" value="Authenticate Login">
+        </form>
+          <form action="/" method="post">
+             <input type="submit" value="Exit">
+        </form>
+    </div>
+</body>
+
